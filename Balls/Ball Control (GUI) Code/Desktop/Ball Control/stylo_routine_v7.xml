@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<routine name="Stylo Routine" number_balls="3" music="stylo.wav">
+	
+	<section time="0" name="Turn off balls" >
+		<ball number="all">
+				<effect type="solid" >
+					<colour>0,0,0</colour>					
+				</effect>	
+		</ball>
+				
+	</section>
+	
+
+	
+
+	<section time="652" name="Off to RGB" >
+		<ball number="1">
+				<effect type="fade" cycle="false">
+					<delay>25</delay>
+					<colour>0,0,0</colour>		
+					<colour>255,0,0</colour>						
+				</effect>
+		</ball>
+		
+		<ball number="2">
+				<effect type="fade" cycle="false">
+					<delay>11</delay>
+					<colour>0,0,0</colour>		
+					<colour>0,255,0</colour>						
+				</effect>
+		</ball>
+		
+		<ball number="3">
+				<effect type="fade" cycle="false">
+					<delay>11</delay>
+					<colour>0,0,0</colour>		
+					<colour>0,0,255</colour>						
+				</effect>
+		</ball>			
+	</section>
+
+
+
+	<section time="7000" name="RGB to White" >
+		<ball number="1">
+				<effect type="fade" cycle="false">
+					<delay>11</delay>
+					<colour>255,0,0</colour>		
+					<colour>255,255,255</colour>						
+				</effect>
+		</ball>
+		
+		<ball number="2">
+				<effect type="fade" cycle="false">
+					<delay>11</delay>
+					<colour>0,255,0</colour>		
+					<colour>255,255,255</colour>						
+				</effect>
+		</ball>
+		
+		<ball number="3">
+				<effect type="fade" cycle="false">
+					<delay>11</delay>
+					<colour>0,0,255</colour>		
+					<colour>255,255,255</colour>						
+				</effect>
+		</ball>			
+	</section>
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+				<section time="11000" name="fade 2" >
+		<ball number="all">
+				<effect type="sync_random_fade" >
+					<delay>8</delay>						
+				</effect>
+		</ball>
+		
+</section>
+	
+	
+	
+	
+	
+	
+			<section name="All - Meteor Random " time="22000"  >
+		<ball number="all">
+				<effect type="meteor_random" >
+					<colour>0,0,0</colour>
+				
+				</effect>	
+		</ball>	
+	</section>
+	
+	
+	
+	
+										<section time="29000" name="throw random" >
+		<ball number="all">
+				<effect type="throw_random" ></effect>
+		</ball>
+		</section>
+		
+		
+		<section time="36000" name="all balls off" >
+			<ball number="all">
+				<effect type="fade" cycle="false">
+					<delay>5</delay>
+					<colour>255,255,255</colour>		
+					<colour>0,0,0</colour>						
+				</effect>
+		</ball>
+	</section>
+	
+	
+			<section time="39000" name="flashballs" >
+			<ball number="all">
+				<effect type="random_colours" >
+					<delay>200</delay>						
+				</effect>
+		</ball>
+	</section>
+	
+	
+	
+				<section time="40000" name="flashballs" >
+			<ball number="all">
+				<effect type="solid" >
+					<colour>-1,-1,-1</colour>					
+				</effect>
+		</ball>
+	</section>
+	
+	
+				<section time="40500" name="flashballs" >
+			<ball number="all">
+				<effect type="random_colours" >
+					<delay>200</delay>						
+				</effect>
+		</ball>
+	</section>
+	
+	
+					<section time="42700" name="flashballs" >
+			<ball number="all">
+				<effect type="solid" >
+					<colour>-1,-1,-1</colour>					
+				</effect>
+		</ball>
+	</section>
+
+	
+					<section time="42950" name="flashballs" >
+			<ball number="all">
+				<effect type="sync_random" >
+					<delay>200</delay>						
+				</effect>
+		</ball>
+	</section>
+	
+	
+	
+						<section time="45000" name="flashballs" >
+			<ball number="all">
+				<effect type="solid" >
+					<colour>-1,-1,-1</colour>					
+				</effect>
+		</ball>
+	</section>
+	
+	
+						<section time="43300" name="flashballs" >
+			<ball number="all">
+				<effect type="sync_random" >
+					<delay>200</delay>						
+				</effect>
+		</ball>
+	</section>
+	
+	
+							<section time="47488" name="flashballs" >
+			<ball number="all">
+				<effect type="solid" >
+					<colour>-1,-1,-1</colour>					
+				</effect>
+		</ball>
+	</section>
+	
+	
+	
+								<section time="47600" name="flashballs" >
+			<ball number="1">
+				<effect type="flash" >
+				<delay>200</delay>
+					<colour>255,0,0</colour>
+					<colour>0,0,0</colour>					
+				</effect>
+		</ball>
+		
+		
+					<ball number="2">
+				<effect type="flash" >
+				<delay>200</delay>
+					<colour>0,255,0</colour>
+					<colour>0,0,0</colour>					
+				</effect>
+		</ball>
+		
+		
+					<ball number="3">
+				<effect type="flash" >
+				<delay>200</delay>
+					<colour>0,0,255</colour>
+					<colour>0,0,0</colour>					
+				</effect>
+		</ball>
+	</section>
+	
+	
+								<section time="49909" name="flashballs" >
+			<ball number="all">
+				<effect type="solid" >
+					<colour>-1,-1,-1</colour>					
+				</effect>
+		</ball>
+	</section>
+	
+	
+							<section time="50039" name="flashballs" >
+			<ball number="all">
+				<effect type="sync_random" >
+					<delay>200</delay>						
+				</effect>
+		</ball>
+	</section>
+	
+	
+									<section time="52342" name="flashballs" >
+			<ball number="all">
+				<effect type="solid" >
+					<colour>-1,-1,-1</colour>					
+				</effect>
+		</ball>
+	</section>
+	
+	
+									<section time="52526" name="Flash Balls" >
+			<ball number="1">
+				<effect type="flash" >
+				<delay>200</delay>
+					<colour>255,255,0</colour>
+					<colour>0,0,0</colour>					
+				</effect>
+		</ball>
+		
+		
+					<ball number="2">
+				<effect type="flash" >
+				<delay>200</delay>
+					<colour>0,255,255</colour>
+					<colour>0,0,0</colour>					
+				</effect>
+		</ball>
+		
+		
+					<ball number="3">
+				<effect type="flash" >
+				<delay>200</delay>
+					<colour>255,0,255</colour>
+					<colour>0,0,0</colour>					
+				</effect>
+		</ball>
+	</section>
+	
+	
+							<section time="55000" name="flashballs" >
+			<ball number="all">
+				<effect type="sync_throw_random" >
+					
+				</effect>
+		</ball>
+	</section>
+	
+	
+								<section time="70362" name="two state random" >
+			<ball number="all">
+				<effect type="two_state_random" >
+					<colour>0,0,0</colour>
+				
+				</effect>		
+		</ball>
+	</section>
+	
+	
+									<section time="80920" name="meteor random" >
+			<ball number="all">
+					<effect type="meteor_random" >
+					<colour>0,0,0</colour>
+				
+				</effect>	
+		</ball>
+	</section>
+	
+	
+			<section time="93248" name="all balls off" >
+			<ball number="all">
+				<effect type="fade" cycle="false">
+					<delay>5</delay>
+					<colour>255,255,255</colour>		
+					<colour>0,0,0</colour>						
+				</effect>
+		</ball>
+	</section>
+	
+	
+</routine>

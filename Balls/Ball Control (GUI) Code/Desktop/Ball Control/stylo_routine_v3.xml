@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<routine name="The name of the routine" number_balls="3" music="stylo.wav">
+	
+	<section time="0" name="Turn off balls" >
+		<ball number="all">
+				<effect type="solid" >
+					<colour>0,0,0</colour>					
+				</effect>	
+		</ball>
+				
+	</section>
+	
+
+	
+
+	<section time="652" name="fade 1" >
+		<ball number="1">
+				<effect type="fade" cycle="false">
+					<delay>11</delay>
+					<colour>0,0,0</colour>		
+					<colour>255,0,0</colour>						
+				</effect>
+		</ball>
+		
+		<ball number="2">
+				<effect type="fade" cycle="false">
+					<delay>11</delay>
+					<colour>0,0,0</colour>		
+					<colour>0,255,0</colour>						
+				</effect>
+		</ball>
+		
+		<ball number="3">
+				<effect type="fade" cycle="false">
+					<delay>11</delay>
+					<colour>0,0,0</colour>		
+					<colour>0,0,255</colour>						
+				</effect>
+		</ball>			
+	</section>
+
+
+
+	<section time="3647" name="fade 2" >
+		<ball number="1">
+				<effect type="fade" cycle="false">
+					<delay>18</delay>
+					<colour>255,0,0</colour>		
+					<colour>255,255,55</colour>						
+				</effect>
+		</ball>
+		
+		<ball number="2">
+				<effect type="fade" cycle="false">
+					<delay>18</delay>
+					<colour>0,255,0</colour>		
+					<colour>255,255,255</colour>						
+				</effect>
+		</ball>
+		
+		<ball number="3">
+				<effect type="fade" cycle="false">
+					<delay>18</delay>
+					<colour>0,0,255</colour>		
+					<colour>255,255,255</colour>						
+				</effect>
+		</ball>			
+	</section>
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+				<section time="8000" name="fade 2" >
+		<ball number="1">
+				<effect type="fade" cycle="false">
+					<delay>11</delay>
+					<colour>0,0,255</colour>		
+					<colour>186,0,89</colour>						
+				</effect>
+		</ball>
+		
+		<ball number="2">
+				<effect type="fade" cycle="false">
+					<delay>11</delay>
+					<colour>255,0,0</colour>		
+					<colour>186,0,89</colour>						
+				</effect>
+		</ball>
+		
+		<ball number="3">
+				<effect type="fade" cycle="false">
+					<delay>11</delay>
+					<colour>0,255,0</colour>		
+					<colour>186,0,89</colour>						
+				</effect>
+		</ball>			
+	</section>
+	
+	
+	
+					<section time="11000" name="fade 3" >
+		<ball number="all">
+				<effect type="fade" cycle="false">
+					<delay>11</delay>
+					<colour>186,0,89</colour>		
+					<colour>255,92,0</colour>						
+				</effect>
+		</ball>
+	</section>
+	
+	
+	
+						<section time="14000" name="fade 4" >
+		<ball number="all">
+				<effect type="fade" cycle="false">
+					<delay>11</delay>
+					<colour>255,92,0</colour>		
+					<colour>0,168,42</colour>						
+				</effect>
+		</ball>
+	</section>
+	
+	
+							<section time="18000" name="fade 5" >
+		<ball number="1">
+				<effect type="fade" cycle="false">
+					<delay>5</delay>
+					<colour>0,168,42</colour>		
+					<colour>255,176,43</colour>						
+				</effect>
+		</ball>
+		
+		<ball number="2">
+				<effect type="fade" cycle="false">
+					<delay>5</delay>
+					<colour>0,168,42</colour>		
+					<colour>0,77,207</colour>						
+				</effect>
+		</ball>
+		
+		<ball number="3">
+				<effect type="fade" cycle="false">
+					<delay>5</delay>
+					<colour>0,168,42</colour>		
+					<colour>186,0,89</colour>						
+				</effect>
+		</ball>	
+	</section>
+	
+	
+	
+								<section time="22000" name="fade 6" >
+		<ball number="1">
+				<effect type="fade" cycle="false">
+					<delay>18</delay>
+					<colour>255,176,43</colour>		
+					<colour>255,0,0</colour>						
+				</effect>
+		</ball>
+		
+		<ball number="2">
+				<effect type="fade" cycle="false">
+					<delay>18</delay>
+					<colour>0,77,207</colour>		
+					<colour>0,255,0</colour>						
+				</effect>
+		</ball>
+		
+		<ball number="3">
+				<effect type="fade" cycle="false">
+					<delay>18</delay>
+					<colour>186,0,89</colour>		
+					<colour>0,0,255</colour>						
+				</effect>
+		</ball>	
+	</section>
+	
+	
+	
+	
+	
+	
+										<section time="27000" name="throw random" >
+		<ball number="all">
+				<effect type="throw_random" ></effect>
+		</ball>
+		</section>
+		
+		
+		<section time="36000" name="all balls off" >
+			<ball number="all">
+				<effect type="fade" cycle="false">
+					<delay>10</delay>
+					<colour>255,255,255</colour>		
+					<colour>0,0,0</colour>						
+				</effect>
+		</ball>
+	</section>
+	
+	
+			<section time="39000" name="flashballs" >
+			<ball number="all">
+				<effect type="random_colours" >
+					<delay>60</delay>
+						
+				</effect>
+		</ball>
+	</section>
+
+
+	
+</routine>

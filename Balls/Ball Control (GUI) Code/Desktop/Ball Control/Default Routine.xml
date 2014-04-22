@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<routine name="Default Routine" number_balls="3" loop="false" >
+	
+	<section  name="All balls off" >
+		<ball number="all">
+				<effect type="solid" >			
+					<colour>0,0,0</colour>								
+				</effect>	
+		</ball>
+				
+	</section>
+	
+	
+	<section  name="All balls red" >
+		<ball number="all">
+				<effect type="solid" >			
+					<colour>255,0,0</colour>								
+				</effect>	
+		</ball>				
+	</section>
+	
+	<section  name="3 Balls - R,G and B" >
+		<ball number="1">
+				<effect type="solid" >			
+					<colour>255,0,0</colour>								
+				</effect>	
+		</ball>	
+
+		<ball number="2">
+				<effect type="solid" >			
+					<colour>0,255,0</colour>								
+				</effect>	
+		</ball>		
+
+		<ball number="3">
+				<effect type="solid" >			
+					<colour>0,0,255</colour>								
+				</effect>	
+		</ball>				
+	</section>
+
+	
+
+	<section name="3 Balls - Flash RGB" >
+		<ball number="1">
+				<effect type="flash" >
+				<delay>300</delay>
+					<colour>255,0,0</colour>
+					<colour>0,0,0</colour>
+				</effect>	
+		</ball>	
+		
+		<ball number="2">
+				<effect type="flash" >
+				<delay>300</delay>
+					<colour>0,255,0</colour>
+					<colour>0,0,0</colour>
+				</effect>	
+		</ball>	
+		
+		
+		<ball number="3">
+				<effect type="flash" >
+				<delay>300</delay>
+					<colour>0,0,255</colour>
+					<colour>0,0,0</colour>
+				</effect>	
+		</ball>	
+	</section>
+
+
+
+	<section name="3 Balls - Fade RGB" >
+		<ball number="1">
+				<effect type="fade" cycle="true" >
+				<delay>6</delay>
+					<colour>255,0,0</colour>
+					<colour>0,0,0</colour>
+				</effect>	
+		</ball>	
+		
+		<ball number="2">
+				<effect type="fade" cycle="true" >
+				<delay>6</delay>
+					<colour>0,255,0</colour>
+					<colour>0,0,0</colour>
+				</effect>	
+		</ball>	
+		
+		
+		<ball number="3">
+				<effect type="fade" cycle="true" >
+				<delay>6</delay>
+					<colour>0,0,255</colour>
+					<colour>0,0,0</colour>
+				</effect>	
+		</ball>	
+	</section>
+	
+	
+		<section name="3 Balls - Meteor RGB" >
+		<ball number="1">
+				<effect type="meteor" >
+					<colour>0,0,0</colour>
+					<colour>255,0,0</colour>
+				</effect>	
+		</ball>	
+		
+		<ball number="2">
+				<effect type="meteor" >
+					<colour>0,0,0</colour>
+					<colour>0,255,0</colour>
+
+				</effect>	
+		</ball>	
+		
+		
+		<ball number="3">
+				<effect type="meteor" >
+					<colour>0,0,0</colour>
+					<colour>0,0,255</colour>
+
+				</effect>	
+		</ball>	
+	</section>
+	
+	
+	<section name="All - Meteor Random " >
+		<ball number="all">
+				<effect type="meteor_random" >
+					<colour>0,0,0</colour>
+				
+				</effect>	
+		</ball>	
+	</section>
+	
+	
+	<section name="All - Two State Random " >
+		<ball number="all">
+				<effect type="two_state_random" >
+					<colour>0,0,0</colour>
+				
+				</effect>	
+		</ball>	
+	</section>
+	
+	
+	
+	
+	
+			<section name="3 Balls - Two State RGB" >
+		<ball number="1">
+				<effect type="two_state" >
+					<colour>0,0,0</colour>
+					<colour>255,0,0</colour>
+				</effect>	
+		</ball>	
+		
+		<ball number="2">
+				<effect type="two_state" >
+					<colour>0,0,0</colour>
+					<colour>0,255,0</colour>
+
+				</effect>	
+		</ball>	
+		
+		
+		<ball number="3">
+				<effect type="two_state" >
+					<colour>0,0,0</colour>
+					<colour>0,0,255</colour>
+
+				</effect>	
+		</ball>	
+	</section>
+	
+
+	
+	<section  name="Throw Random - All" >
+		<ball number="all">
+				<effect type="throw_random" ></effect>	
+		</ball>	
+	</section>
+	
+	
+		<section  name="Random Colours - All" >
+		<ball number="all">
+				<effect type="random_colours" >
+				<delay>100</delay>
+				</effect>
+				
+		</ball>		
+	</section>
+	
+	
+			<section  name="Sync Random Colours - All" >
+		<ball number="all">
+				<effect type="sync_random" >
+			<delay>-1</delay>
+				</effect>
+				
+		</ball>		
+	</section>
+	
+	
+				<section  name="Sync Random Fade - All" >
+		<ball number="all">
+				<effect type="sync_random_fade" >
+			<delay>10</delay>
+				</effect>
+				
+		</ball>		
+	</section>
+	
+	
+	
+			<section  name="Sync Throw Random - All" >
+		<ball number="all">
+				<effect type="sync_throw_random" ></effect>	
+		</ball>		
+	</section>
+	
+	
+				<section  name="Random Fade - All" >
+		<ball number="all">
+				<effect type="random_fade" >
+				<delay>11</delay>
+				</effect>	
+		</ball>		
+	</section>
+	
+				<section  name="Sync Throw Random - All" >
+		<ball number="all">
+				<effect type="sync_throw_random" ></effect>	
+		</ball>		
+	</section>
+	
+	
+				<section  name="Photo" >
+		<ball number="0">
+				<effect type="photo" >		
+				</effect>	
+		</ball>		
+	</section>
+	
+	
+					<section  name="Video" >
+		<ball number="0">
+				<effect type="video" >		
+				</effect>	
+		</ball>		
+	</section>
+
+
+	
+</routine>

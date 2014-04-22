@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<routine name="The name of the routine" number_balls="3"  >
+	
+	
+	
+			<section name="Meteor Ball 1" >
+		<ball number="1">
+					<effect type="meteor" >
+					<colour>0,255,0</colour>		
+					<colour>0,0,255</colour>						
+				</effect>		
+		</ball>
+	</section>
+
+	
+
+	<section  name="R. Colours Ball 1" >
+		<ball number="1">
+				<effect type="random_colours" ></effect>	
+		</ball>
+	</section>
+	
+	
+		<section  name="Throw random Ball 1" >
+		<ball number="1">
+				<effect type="throw_random" ></effect>	
+		</ball>
+	</section>
+	
+	
+	
+		<section  name="Random fade Ball 1" >
+		<ball number="1">
+				<effect type="random_fade" >
+				<delay>6</delay>
+				</effect>	
+		</ball>
+	</section>
+		
+
+
+
+	
+</routine>

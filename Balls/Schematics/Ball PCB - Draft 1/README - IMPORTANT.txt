@@ -1,0 +1,1 @@
+I don't think this Eagle file would satisfy most PCB printing shop's rules but just in case... DO NOT TRY AND GET THIS CIRCUIT MADE UP. It's an early draft version and liable to change. The reason it has been uploaded is that you could probably use it as a guideline for making your own board with veroboard. - JJ

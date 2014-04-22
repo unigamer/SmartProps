@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ball Control Centre</string>
+    <string name="title_section1">Pre-defined</string>
+    <string name="title_section2">All</string>
+    <string name="title_section3">Ball 1</string>
+    <string name="title_section4">Ball 2</string>
+    <string name="title_section5">Ball 3</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    <string name="label_choose_colour_1">Color 1</string>
+    <string name="label_choose_colour_2">Color 2</string>
+    <string name="label_colour_r">R</string>
+    <string name="label_colour_g">G</string>
+    <string name="label_colour_b">B</string>
+    <string name="label_set">S E T</string>
+    <string name="label_delay">Delay:</string>
+    <string name="label_delay_unit">ms</string>
+    <string name="btEnable">Bluetooth Enable</string>
+    <string name="btDisable">Bluetooth Disable</string>
+    <string name="label_effect">Effect:</string>
+    <string-array name="effects_array">
+        <item>Solid Colour</item>
+        <item>Fade</item>
+        <item>Fade Cycle</item>
+        <item>Flash</item>
+        <item>Disco</item>
+        <item>Two State</item>
+        <item>Throw Random</item>
+        <item>Random Fade</item>
+    </string-array>
+</resources>

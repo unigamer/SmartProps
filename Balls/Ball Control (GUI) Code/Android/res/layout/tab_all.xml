@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <SeekBar
+        android:id="@+id/tab_0_label_colour_r_1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="100dp"
+        android:max="@integer/seekbar_colour_max"
+        android:maxHeight="7dp" />
+
+    <SeekBar
+        android:id="@+id/tab_0_label_colour_g_1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="140dp"
+        android:max="@integer/seekbar_colour_max"
+        android:maxHeight="7dp" />
+
+    <SeekBar
+        android:id="@+id/tab_0_label_colour_b_1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="180dp"
+        android:max="@integer/seekbar_colour_max"
+        android:maxHeight="7dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="105dp"
+        android:text="@string/label_colour_r"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="145dp"
+        android:text="@string/label_colour_g"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="185dp"
+        android:text="@string/label_colour_b"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tab_0_label_colour_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="80dp"
+        android:text="@string/label_choose_colour_1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tab_0_label_colour_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="230dp"
+        android:text="@string/label_choose_colour_2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <SeekBar
+        android:id="@+id/tab_0_label_colour_r_2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="250dp"
+        android:max="@integer/seekbar_colour_max"
+        android:maxHeight="7dp" />
+
+    <SeekBar
+        android:id="@+id/tab_0_label_colour_g_2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="290dp"
+        android:max="@integer/seekbar_colour_max"
+        android:maxHeight="7dp" />
+
+    <SeekBar
+        android:id="@+id/tab_0_label_colour_b_2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="330dp"
+        android:max="@integer/seekbar_colour_max"
+        android:maxHeight="7dp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="255dp"
+        android:text="@string/label_colour_r"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="295dp"
+        android:text="@string/label_colour_g"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="335dp"
+        android:text="@string/label_colour_b"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="21dp"
+        android:text="@string/label_effect"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/tab_0_effect"
+        android:layout_width="170dp"
+        android:layout_height="43dp"
+        android:layout_x="65dp"
+        android:layout_y="15dp"
+        android:entries="@array/effects_array" />
+
+    <Button
+        android:id="@+id/tab_0_button_set"
+        android:layout_width="72dp"
+        android:layout_height="43dp"
+        android:layout_x="240dp"
+        android:layout_y="15dp"
+        android:text="@string/label_set" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="288dp"
+        android:layout_y="370dp"
+        android:text="@string/label_delay_unit" />
+
+    <EditText
+        android:id="@+id/tab_0_delay"
+        android:layout_width="73dp"
+        android:layout_height="36dp"
+        android:layout_x="212dp"
+        android:layout_y="365dp"
+        android:ems="10"
+        android:gravity="right"
+        android:inputType="number"
+        android:text="0"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="168dp"
+        android:layout_y="370dp"
+        android:text="@string/label_delay"
+         />
+
+</AbsoluteLayout>

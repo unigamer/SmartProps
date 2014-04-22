@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<routine name="The name of the routine" number_balls="3" loop="true" >
+	
+	<section time="0" name="solid bad body 1 pop" >
+		<ball number="1">
+				<effect type="fade" cycle="true">
+					<delay>10</delay>
+					<colour>37,38,39</colour>		
+					<colour>255,150,200</colour>						
+				</effect>	
+		</ball>
+		
+		<ball number="2">
+				<effect type="fade" cycle="false">
+					<delay>20</delay>
+					<colour>37,38,39</colour>		
+					<colour>255,150,200</colour>						
+				</effect>		
+		</ball>
+		
+		<ball number="3">
+				<effect type="solid" >
+					<colour>0,0,255</colour>					
+				</effect>	
+		</ball>			
+	</section>
+	
+
+	
+
+	<section time="1000" name="solid bad body 2" >
+		<ball number="all">
+				<effect type="solid" >
+					<colour>0,255,0</colour>					
+				</effect>	
+		</ball>	
+	</section>
+
+
+
+	<section time="2000" name="solid bad body 3" >
+		<ball number="1">
+				<effect type="solid" >
+					<colour>0,0,255</colour>					
+				</effect>	
+		</ball>
+		
+		<ball number="2">
+				<effect type="solid" >
+					<colour>255,0,0</colour>					
+				</effect>	
+		</ball>
+		
+		<ball number="3">
+				<effect type="solid" >
+					<colour>0,255,0</colour>					
+				</effect>	
+		</ball>			
+	</section>	
+	
+		<section time="3000" name="dummy" >
+		<ball number="1">
+				<effect type="solid" >
+					<colour>0,0,255</colour>					
+				</effect>	
+		</ball>
+		
+		<ball number="2">
+				<effect type="solid" >
+					<colour>255,0,0</colour>					
+				</effect>	
+		</ball>
+		
+		<ball number="3">
+				<effect type="solid" >
+					<colour>0,255,0</colour>					
+				</effect>	
+		</ball>			
+	</section>	
+	
+	
+
+	
+	
+	
+
+
+	
+</routine>
