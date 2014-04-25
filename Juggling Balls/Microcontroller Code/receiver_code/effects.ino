@@ -2,7 +2,8 @@ void process_sync_throw() {
   
    if (millis()-sync_throw_time<sync_throw_tolerance) { // Another ball has been throw recently (<sync_throw_tolerance) so the ball that has just been thrown needs to be the same colour
 
-        ball_number = payload_rx.p1;
+  Serial.println("Sync");
+     
         payload_tx.p1 = 1; // Type of command
         payload_tx.p2 = 1; // Effect type if type of command = 1
         payload_tx.p3 = sync_colour_1[0];
@@ -21,7 +22,7 @@ void process_sync_throw() {
         bool ok = network.write(header,&payload,sizeof(payload));
       } 
       else { // No other ball has been thrown recently so generate a new random colour
-
+ Serial.println("No Sync");
         // Generate a new colour (populate random_colour_array)
         randomColourArrayV2_no_repeat();
 
@@ -29,7 +30,7 @@ void process_sync_throw() {
         sync_colour_1[1] = random_colour_array[1];
         sync_colour_1[2] = random_colour_array[2];
 
-        ball_number = payload_tx.p1;
+        
         payload_tx.p1 = 1; // Type of command
         payload_tx.p2 = 1; // Effect type if type of command = 1
         payload_tx.p3 = sync_colour_1[0];

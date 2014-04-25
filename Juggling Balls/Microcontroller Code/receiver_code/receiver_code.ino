@@ -127,6 +127,7 @@ void loop(void)
 
     if (balls_effects[payload.p1-1]==12 && payload.p3==1) { // If the ball has just been thrown and it's effect type is Sync Throw Random then we need to send it a new colour
     
+    ball_number = payload.p1;
       process_sync_throw();
     }
     
