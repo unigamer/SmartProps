@@ -3,6 +3,8 @@ SmartProps
 
 Smart LED circus props
 
+Demo: https://www.youtube.com/watch?v=CMix5ZxQXCQ&feature=youtu.be
+
 You want open source, smart, bluetooth enabled, LED juggling props?! Well, you're at the right place. However, this project is very much in its infancy. You can't buy any props and even making them is a bit tricky just now. I still think the code should be available so it's all here.
 
 What can your juggling balls do?
